@@ -1,4 +1,6 @@
-/* https://www.codewars.com/kata/529b418d533b76924600085d
+/* 
+
+https://www.codewars.com/kata/529b418d533b76924600085d
 
  Complete the function/method so that it takes CamelCase string and returns the string in snake_case notation. 
  Lowercase characters can be numbers. If method gets number, it should return string.
@@ -15,7 +17,9 @@ toUnderscore('MoviesAndBooks');
 toUnderscore('App7Test');
 
 // returns "1"
-toUnderscore(1); */
+toUnderscore(1); 
+
+*/
 
 function toUnderscore(string) {
 

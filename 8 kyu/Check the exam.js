@@ -1,4 +1,6 @@
-/* https://www.codewars.com/kata/5a3dd29055519e23ec000074
+/* 
+
+https://www.codewars.com/kata/5a3dd29055519e23ec000074
 
 The first input array is the key to the correct answers to an exam, like ["a", "a", "b", "d"]. The second one contains a student's submitted answers.
 
@@ -12,6 +14,7 @@ checkExam(["a", "a", "b", "b"], ["a", "c", "b", "d"]) → 6
 checkExam(["a", "a", "c", "b"], ["a", "a", "b",  ""]) → 7
 checkExam(["a", "a", "b", "c"], ["a", "a", "b", "c"]) → 16
 checkExam(["b", "c", "b", "a"], ["",  "a", "a", "c"]) → 0
+
 */
 
 function checkExam(array1, array2) {
