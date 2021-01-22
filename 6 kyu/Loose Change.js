@@ -27,24 +27,24 @@ function looseChange(cents) {
     'Quarters': 0
     }
     
-    if (rounded / 25 >= 1) {
+    if (cents <= 0 ) {
+    
+    return money
+    
+    } else {
+    
     money.Quarters += Math.floor(rounded / 25)
     rounded -= money.Quarters * 25
-    }
     
-    if (rounded / 10 >= 1) {
     money.Dimes += Math.floor(rounded / 10)
     rounded -= money.Dimes * 10
-    }
     
-    if (rounded / 5 >= 1) {
     money.Nickels += Math.floor(rounded / 5)
     rounded -= money.Nickels * 5
-    }
     
-    if (rounded / 1 >= 1) {
     money.Pennies += (rounded / 1)
     rounded -= money.Pennies
+    
     }
     
     return money
